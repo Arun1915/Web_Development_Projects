@@ -1,0 +1,43 @@
+<%- include('partials/header.ejs') %>
+
+<div class="px-4 py-5 text-center deep-brown-background light-brown-text">
+    <img class="d-block mx-auto mb-4 circular-border" src="public/images/Today.png" alt="" width="200" >
+    <h1 class="display-5 fw-bold text-body-emphasis">To do list for Today</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Keep forgetting tiny but menacing chores? Have problem remembering things?
+        No worries!! Use our brand new website to note all of your to-dos. Store what you have to do today in our 'Today' list
+        and keep work related, long-run to-dos in the 'Work' list. Enjoy functionalities such as adding, crossing and deleting items in your lists. 
+    </p>
+    </div>
+</div>
+
+<div class="d-grid gap-2 d-sm-flex justify-content-sm-center py-5 darker-brown-background">
+  <form action = "/" method="post">
+      <input type="text" name="item" placeholder="Add item" class="text-input py-3">
+      <input type="submit" value="Add" class="btn btn-colors btn-lg px-4 gap-4">
+  </form>
+  <!-- <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> -->
+</div>
+
+<form action="/" method = "post" class="pb-5 darker-brown-background">
+  <div class = "container flexbox-container"> 
+    <% for (let i=0; i<list.length; i++) { %>
+      <div class = "job px-1 py-4 light-brown-text <% if (crossedOut[i] == 1) {%> checked<% } %>">
+        <input type="checkbox" name = "<%= i %>" <% if (crossedOut[i] == 1) {%> checked <% } %>>
+        <label for="<%= list[i] %>"> <%= list[i] %> </label>
+      </div>
+    <% } %>
+    <input type="submit" value="Save" class = "btn btn-colors btn-lg px-4 gap-4">
+  </div>
+</form>
+
+<form action="/" method="post" class="pb-5 darker-brown-background flexbox-container">
+    <div>
+    <input type="text" name="removeItem" placeholder="Delete item" class="text-input py-3" >
+    <input type="submit" value="Delete" class="btn btn-colors btn-lg px-4">
+    </div>
+</form>
+
+
+<%- include('partials/footer.ejs') %>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .grid-container{
+      display: inline-grid;
+      background-color: black;
+      gap: 10px;
+      height: 100 vh;
+      grid-template-columns: repeat(3, 50px) 100px repeat(2, 50px) 25px;
+      /* grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 0.5fr; */
+      grid-template-rows: 50px repeat(2, 100px) repeat(2, 50px) repeat(2, 25px);
+    }
+    .red{
+      background-color: #E72F24;
+    }
+    
+    .yellow{
+      background-color: #F9D01E;
+    }
+
+    .black{
+      background-color: #232629;
+    }
+
+    .blue{
+      background-color: #004592;
+    }
+
+    .white{
+      background-color: #F0F1EC;
+    }
+
+    .one{
+      grid-area: 1/-4/3/-2
+    }
+
+    .two{
+      grid-area: 2/2/4/5;
+    }
+
+    .three{
+      grid-area: 4/2/-3/4;
+    }
+
+    .four{
+      grid-area: -4/1/-1/2;
+    }
+
+    .five{
+      grid-area: -4/-4/-2/-2;
+    }
+
+    .six{
+      grid-area: -4/-2/-1/-1;
+    }
+
+    .seven{
+      grid-area: -3/4/-2/5;
+    }
+
+    .span2{
+      grid-column: span 2;
+    }
+
+    .span4{
+      grid-row: span 4;
+    }
+
+    .span2_row{
+      grid-row: span 2;
+    }
+
+    .span{
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .span3{
+      grid-column: span 3;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class = "grid-container">
+    <div class = "white span2"></div>
+    <div class = "white span2"></div>
+
+    <div class = "one yellow"></div>
+    
+    <div class = "white span4"></div>
+    <div class = "white"></div>
+    
+    <div class = "two red"></div>
+    
+    <div class = "white span2_row"></div>
+    <div class = "white"></div>
+    <div class = "white"></div>
+
+    <div class = "three black"></div>
+
+    <div class = "white"></div>
+    <div class = "white span2 "></div>
+    <div class = "four yellow"></div>
+
+    <div class = "white"></div>
+
+    <div class = "five blue"></div>
+    <div class = "six red"></div>
+
+    <div class = "white span"></div>
+
+    <div class = "seven black"></div>
+    
+    <div class = "white span3"></div>
+  </div>
+</body>
+
+</html>

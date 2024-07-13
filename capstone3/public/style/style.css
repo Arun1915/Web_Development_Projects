@@ -1,0 +1,46 @@
+.circular-border{
+    border-radius: 50%;
+}
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.job {
+    /* height: 50px; */
+    width: 400px;
+    border: 3px solid #F9E0BB;
+    border-radius: 10px;
+    background-color: #884A39;
+}
+
+.text-input{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.header{
+    background-color: #f7d6a9;
+}
+
+.deep-brown-background{
+    background-color: #884A39;
+}
+
+.light-brown-text{
+    color: #F9E0BB;
+}
+
+.darker-brown-background{
+    background-color: #f8e5cb;
+}
+
+.btn-colors{
+    background-color: #C38154;
+}
+
+.checked{
+    background-color: #978d03;
+}

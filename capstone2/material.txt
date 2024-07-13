@@ -1,0 +1,44 @@
+//head:
+Arun Dwivedi
+Hey there!! I am Arun from Kanpur, Uttar Pradesh, India.
+
+//education:
+Education
+
+DAV Public School, Pune
+June-2019
+Graduated 10th class with 96% marks
+
+Namo Rims Jr. College
+June-2021
+Graduated 12th class with 92% marks
+
+IIT Kanpur
+Dec-2021 to Today
+B. Tech in Mechanical Engineering. Expected to graduate in June-2025. Current CPI is 9.
+
+//skils:
+Skills
+Python, C++, C, HTML, CSS, Matlab, Latex, AutoCAD, Git, Github.
+
+//images:
+Clicks at IITK
+mesmerizing sunset viewed from Hall 13 lawns
+straight road surrounded with trees and shrubs
+View from fifth floor of hall 13
+
+//more about me:
+More about me
+I am a huge fan of the Tom and Jerry Show (of course the old one; new one sucks!!).
+My other interests include, meditation, yoga, making beautiful websites (a recent interest) and watching films.
+
+I am somewhat an introvert, but once we get to know each other, I am pretty sure you would love talking to me!!
+
+picture of tom and jerry playing drums with kitchen instruments
+
+//contact me:
+Contact me
+Ph.: 9112692072
+email: arund21@iitk.ac.in
+linkedin: find me here
+https://www.linkedin.com/in/arun-dwivedi-a6378b254

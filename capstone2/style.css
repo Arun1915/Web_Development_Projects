@@ -1,0 +1,78 @@
+.head img{
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 100px!important;
+}
+
+.blue{
+    background-color: #525FE1;
+}
+
+#yellow{
+    color: #FFA41B!important;
+}
+.orange{
+    color: #F86F03;
+}
+
+.white{
+    color: #FFF6F4;
+}
+
+.education{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.card-body{
+    background-color: #FFF6F4;
+    flex-shrink: 0;
+}
+
+.education > svg{
+    align-self: center;
+    width: 32px;
+}
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 300px;
+}
+
+.grid-container > div{
+    text-align: center;
+    font-size: 20px;
+}
+
+.shape{
+    background-color: #FFF6F4;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.flex-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.decorated{
+    border: #FFA41B solid 5px;
+    border-radius: 50px;
+}
+
+.orangeb{
+    background-color: #753a0d;
+}
+
+.txtleft{
+    text-align: left;
+    color: #FFA41B;
+}
